@@ -1,0 +1,175 @@
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+
+<link rel="icon" href="tnu.jpg">
+<title>TNU-The New Used</title>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <a class="navbar-brand" href="#"> <h1> {{title}} </h1> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div style="text-align:right">
+      <a style="color:white;" class="btn btn-default" href="/home">Home</a> 
+    </div>
+      
+      <div class="dropdown">
+            <a class="btn btn-default" style="color:white;" id="Products_dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Products </a>
+        <div class="dropdown-menu" aria-labelledby="Products">
+            <a class="dropdown-item" href="/product/create"> Create New Product</a>
+          <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/productupdate"> Update Products</a>
+      </div>
+         </div>
+          </div>
+
+      <div class="dropdown">
+            <a class="btn btn-default" style="color:white;" id="Products_dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Brands</a>
+      <div class="dropdown-menu" aria-labelledby="Brand">
+            <a class="dropdown-item" href="/brandlist"> Brand List </a>
+      <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="/brand/create"> Create New Brand</a>
+      </div>
+      </div>
+      </div>
+          <div class="dropdown">
+            <a class="btn btn-default" style="color:white;" id="Products_dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Categories
+            </a>
+            <div class="dropdown-menu" aria-labelledby="Categories">
+                          <a class="dropdown-item" href="/categorieslist">Categories List</a>
+                           <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="/category/create">Create New Category</a>
+            </div>    
+
+            </div>
+            </div>
+            </div>
+            <div class="dropdown">
+            <a class="btn btn-default" style="color:white;" id="Products_dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Customers
+            </a>
+            <div class="dropdown-menu" aria-labelledby="Customers">
+                          <a class="dropdown-item" href="/customers">Customer Lists</a>
+                           <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="/customers_details">Customer Details</a>
+            </div> 
+          
+          <a style="color:white;" class="btn btn-default" href="/orders">Orders</a> 
+           </div>
+</nav>
+
+
+<style>
+body{
+background-color:white;
+}
+</style>
+<br><br><br>
+<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel"> 
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+
+  </ol>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+       <center>
+      <img class="d-block w-60" src="tnu.jpg" alt="First slide"> </center>
+      <div class="carousel-caption d-none d-md-block">
+  
+  </div>
+    </div>
+    <div class="carousel-item">
+            <center>
+      <img class="d-block w-50" src="dp3.jpg" alt="Second slide"> </center>
+    <div class="carousel-caption d-none d-md-block">
+  
+  </div>
+    </div>
+    <div class="carousel-item">
+             <center>
+      <img class="d-block w-50" src="dp5.jpg" alt="Third slide"> </center>
+    <div class="carousel-caption d-none d-md-block">
+   
+  </div>
+    </div>
+  </div>
+ <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+<br><br><br>
+<style>
+.footer-outer{
+  width: 100% height:100%;
+  background-color: #343A40;
+}
+
+.footer-inner{
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 0px;
+  margin-bottom: 0%;
+  padding: 10px;
+  text-align: left;
+}
+
+.footer-inner .mediaicons img{
+  border:3px solid transparent;
+ }
+ 
+ .footer-inner .mediaicons img:hover{
+  border:3px solid gold;
+  border-radius: 100px;
+ }
+
+ .footer-inner table tr{
+  padding:30px;
+ }
+.footer-inner table tr #footerdetails a:hover{
+  text-decoration: underline;
+  color: gold;
+}
+.footer-inner table tr #footerdetails a:last-child{
+  text-decoration: none;
+}
+</style>
+<footer class="footer-outer">
+      <div class="footer-inner">
+        <table align="center">
+        <tr><td id="footerdetails">
+        <a style="color:white;" >ABOUT US </a>
+        <br>
+        <a style="color:white;" >CONTACT US</a>
+        <br>
+        <a style="color:white;" >COMMENTS AND SUGGESTIONS</a>
+        <br><br>
+        <a style="color:white;" >©Copyright 2018: Englatera_Kart_Mercado_Maryniel</a>
+        </td> 
+        <td style="text-align: right;">
+        <a class="mediaicons" href="http://www.facebook.com" target="_blank"> <img style="height:100px;width:100px;" src="fb.png"></a>
+        <a class="mediaicons" href="http://www.gmail.com" target="_blank"><img style="height:100px;width:100px;" src="mail.png"></a>
+        <a class="mediaicons" href="http://www.twitter.com" target="_blank"><img style="height:100px;width:100px;" src="twitter.png"></a>
+        </td></tr>
+        </table>
+      </div>
+
+    </footer>
+
+
+
